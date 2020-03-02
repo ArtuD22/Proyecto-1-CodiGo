@@ -132,3 +132,25 @@ body {
     font-size: 25px;
 }
 
+/* PORTAFOLIO */
+.portafolio {
+    background-color: #004B62;
+    padding: 34px;
+    text-align: center;
+}
+
+.portafolio h2 {
+    text-align: center;
+    margin: 20px 0 55px 0;
+}
+
+.portafolio .item {
+    padding: 0 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.portafolio img {
+    margin: 0 40px 12px;
+}
