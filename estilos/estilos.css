@@ -48,6 +48,13 @@ body {
 /* BANNER */
 .banner {
     position: relative;
+    background-image: url(/imagenes/Portada.png);
+    background-position: center;
+    height: 525px;
+}
+
+.banner {
+    position: relative;
 }
 
 .banner h1 {
@@ -234,4 +241,39 @@ body {
     color: #ebebeb;
     font-size: 18px;
     cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+    /* BODY */
+    body {
+        position: relative;
+        width: 100vw;
+        margin: auto;
+        background-color: #ebebeb;
+    }
+
+    /* BANNER */
+    .banner {
+        position: relative;
+        width: 100%;
+    }
+
+    .banner img {
+        position: absolute;
+        left: -50%;
+    }
+
+    .banner h1 {
+        position: absolute;
+        font-size: 40px;
+    }
+
+    .banner h2 {
+        position: absolute;
+        bottom: 5vh;
+        width: 80%;
+        left: 10%;
+    }
+
+
 }
