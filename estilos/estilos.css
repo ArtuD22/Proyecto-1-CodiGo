@@ -252,6 +252,14 @@ body {
         background-color: #ebebeb;
     }
 
+    h1 {
+        font-size: 40px;
+    }
+    
+    h2 {
+        font-size: 30px;
+    }
+
     /* BANNER */
     .banner {
         position: relative;
@@ -263,16 +271,39 @@ body {
         left: -50%;
     }
 
-    .banner h1 {
-        position: absolute;
-        font-size: 40px;
-    }
-
     .banner h2 {
         position: absolute;
         bottom: 5vh;
         width: 80%;
         left: 10%;
+    }
+
+    /* HABILIDADES */
+    .habilidades {
+        width: 100vw;
+    }
+
+    .habilidades .porcentaje {
+        padding: 0;
+    }
+
+    .habilidades .barra-titulo {
+        width: 100%;
+    }
+
+    .habilidades .barra-titulo:nth-child(odd) {
+        padding: 0;
+    }
+
+    .habilidades .barra-titulo:nth-child(even) {
+        padding: 0;
+    }
+
+    /* SERVICIOS */
+    .servicios .items .item {
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
 
 
