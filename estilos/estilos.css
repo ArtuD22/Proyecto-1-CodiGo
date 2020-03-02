@@ -28,6 +28,7 @@ body {
     position: relative;
     width: 960px;
     margin: auto;
+    background-color: #ebebeb;
 }
 
 /* BANNER */
@@ -153,4 +154,27 @@ body {
 
 .portafolio img {
     margin: 0 40px 12px;
+}
+
+/* CLIENTES */
+.clientes {
+    padding: 34px 34px 96px;
+    background: #383838;
+    text-align: center;
+}
+
+.clientes h2 {
+    margin-bottom: 22px;
+    padding: 34px;
+    text-align: center;
+}
+
+.clientes .items {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.clientes img {
+    margin: 00 10px;
 }
