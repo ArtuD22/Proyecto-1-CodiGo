@@ -306,5 +306,40 @@ body {
         margin-bottom: 30px;
     }
 
+    /* PORTAFOLIO */
+    .portafolio .items {
+        padding: 0;
+    }
+
+    .portafolio .img {
+        width: 100%;
+        height: 75%;
+    }
+
+    /* CLIENTES */
+    .clientes .items {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .clientes .img {
+        margin: 10px 11px;
+    }
+
+    /* CONTACTOS */
+    .contacto .formulario {
+        padding: 0;
+    }
+
+    .contacto .fila {
+        flex-wrap: wrap;
+    }
+
+    .contacto .columna {
+        margin: 0 0 10px 0;
+    }
+
 
 }
