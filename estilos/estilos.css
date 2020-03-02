@@ -31,6 +31,20 @@ body {
     background-color: #ebebeb;
 }
 
+/*SOCIAL MEDIA*/
+.social-media {
+    display: flex;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    justify-content: center;
+    z-index: 1;
+}
+
+.social-media {
+    margin-left: 20px;
+}
+
 /* BANNER */
 .banner {
     position: relative;
